@@ -1,0 +1,63 @@
+body {
+    font-family: monospace;
+    font-size: x-large;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8844.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: #575d90 0px 0px 50px;
+    width: 300px;
+    text-align: center;
+}
+
+.container h1{
+    font-family: "Chakra Petch", sans-serif;
+}
+
+input {
+    width: 87%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #3b3660;
+    color: white;
+}
+
+button {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: #3a3f58;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #575d90;
+}
+
+.hidden {
+    display: none;
+}
+
+a{
+    color: #575d90;
+}
